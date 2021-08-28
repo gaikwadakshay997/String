@@ -1,0 +1,34 @@
+Demonstrate all string function using library function.
+
+
+
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+
+    char a[10],b[10];
+
+    printf("enter a string:");
+    gets(a);
+
+    printf("\n enter b string:");
+    gets(b);
+
+    printf("\n strlen() : %d",strlen(a));
+
+
+
+    printf("\n strcat() : %s",strcat(a,b));
+
+    printf("\n strcmp() : %d",strcmp(a,b));
+
+    printf("\n strlwr(): %s",strlwr(a));
+
+    printf("\n strupr() : %s",strupr(a));
+
+     strcpy(a,b);
+    printf("\n strcpy() : %s",a);
+
+}
